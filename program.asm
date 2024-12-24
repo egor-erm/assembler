@@ -1,0 +1,7 @@
+LD R0, 5
+ADD R0, -30
+ST R0, #32
+LD R3, R0
+LD R2, 1
+SHRA R3, R2
+ST R3, #33
